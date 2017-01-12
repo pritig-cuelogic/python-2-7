@@ -5,4 +5,7 @@ print "these are month: ", month
 print """
       this is very.
       There's something going on here.
-      We'll be able to type as much as we like. """
+      We'll be able to type as much as we like. 
+      """
+print "these are days: %s" % days
+print "these are month: %r" % month
