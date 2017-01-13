@@ -18,5 +18,3 @@ print add_number(4, 5)
 print subtract_number(10, 2)
 print multiply_number(2, 4)
 print devide_number(10, 2)
-
-
