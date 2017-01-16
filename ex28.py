@@ -21,4 +21,3 @@ print False or 1
 print 1 and True
 print True and 1
 print 0 or False
-
