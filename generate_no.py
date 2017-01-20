@@ -6,7 +6,7 @@ def check_prime_no(num):
     flag = 0
     sqrt = math.sqrt(num)
     while(i <= sqrt):
-        if(num % i == 0):
+        if num % i == 0:
             flag = 1
             return flag
         else:
@@ -46,7 +46,7 @@ file_obj1.write("%d \n" % 1)
 
 while(j <= n):
     is_prime = check_prime_no(j)
-    if(is_prime == 0):
+    if is_prime == 0:
         file_obj.write("%d \n" % j)
     is_happy = check_happy_no(j)
     if is_happy == 1:
