@@ -1,10 +1,10 @@
 class Node:
-	def __init__(self, val):
+	def __init__(self,val):
 		self.l_child = None
 		self.r_child = None
 		self.data = val
 
-def insert(root, node):
+def insert(root,node):
 	if root is None:
 		root = node
 	else:
@@ -20,7 +20,7 @@ def insert(root, node):
 				insert(root.r_child,node)
 
 
-file_obj = open('result.txt', 'r+')
+file_obj = open('result.txt','r+')
 i = 0
 for numbers in file_obj.readlines():
 	if i == 0:

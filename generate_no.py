@@ -40,7 +40,7 @@ j = 2
 file_obj = open('pn.txt','w+')
 file_obj.truncate()
 
-file_obj1 = open('hn.txt', 'w+')
+file_obj1 = open('hn.txt','w+')
 file_obj1.truncate()
 file_obj1.write("%d \n" % 1)
 
