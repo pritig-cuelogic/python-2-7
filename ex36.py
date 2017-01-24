@@ -13,11 +13,11 @@ def changeme( mylist ):
 	mylist = [1,2,3,4]
 	print "Values inside the function: ", mylist
 
-def printinfo( name, age ):
+def printinfo(name,age ):
 	print "Name: ", name
 	print "Age ", age
 
-def printValue(name, age = 34):
+def printValue(name,age = 34):
 	print "Name: " , name
 	print "Age: " , age
 
@@ -33,7 +33,7 @@ changeme(mylist)
 print "Values outside the function: ", mylist
 printStr("This print an string")
 change([2, 33, 55])
-printinfo( age=50, name="miki" )
-printValue(age = 30, name = "Priti")
+printinfo(age=50,name="miki" )
+printValue(age=30, name="Priti")
 printValue("Neha")
-printValue(name = "Priti")
+printValue(name="Priti")
