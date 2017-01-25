@@ -30,3 +30,7 @@ print b
 
 print [x+y for x,y in zip([2, 3, 5, 88], [6, 8, 90])]
 print [x+y for x in [4,5,6] for y in [1, 2, 3] if (x+y) < 7 and (x+y) != 6]
+print map(lambda x: x*2, [2,3,5])
+print filter(lambda x: x % 3 == 0, [1, 2, 3, 4, 5, 6, 7, 8, 9])
+double = lambda x: x*2
+print double(11)
